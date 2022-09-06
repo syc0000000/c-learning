@@ -1,11 +1,10 @@
-/*
 #include<stdio.h>
 
 int main()
 {
 	double loan = 0, rate0 = 0, mon = 0, loan00 = 0;
 
-	//输入数据
+	//杈撳叆鏁版嵁
 	printf("Enter amout of loan : ");
 	scanf_s("%lf", &loan);
 	printf("Enter interest rate: ");
@@ -13,22 +12,22 @@ int main()
 	printf("Enter monthly payment: ");
 	scanf_s("%lf", &mon);
 
-	//转化rate
+	//杞寲rate
 	double rate = 0;
 	rate = rate0 * 0.01/12;
 
-	//第一个月
+	//绗竴涓湀
 	loan00= loan - mon;
 	loan = loan00 + loan * rate;
 	printf("Balance remaining after first payment: $%.2lf\n", loan);
 
-	//第二个月
+	//绗簩涓湀
 	
 	loan00 = loan - mon;
 	loan = loan00 + loan * rate;
 	printf("Balance remaining after second payment: $%.2lf\n", loan);
 
-	//第三个月
+	//绗笁涓湀
 	
 	loan00 = loan - mon;
 	loan = loan00 + loan * rate;
@@ -36,4 +35,3 @@ int main()
 
 
 }
-*/
