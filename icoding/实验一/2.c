@@ -1,5 +1,5 @@
 #include<stdio.h>
-/*
+
 int main()
 {
 	int amount = 0.00;
@@ -20,4 +20,4 @@ int main()
 	return 0;
 
 }
-*/
+
